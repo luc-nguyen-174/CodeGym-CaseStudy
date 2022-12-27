@@ -1,0 +1,40 @@
+body{
+    background: #f5eee9;
+    font-family: "Helvetica Neue", Helvetica, fantasy;
+    font-size:16px;
+}
+#banner{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    position: relative;
+}
+.list-item{
+    width: 30%;
+    float: left;
+    ;
+}
+.main-mid{
+    width: 64.985%;
+    float: right;
+    padding: 0 10px;
+}
+.left {
+    padding: 10px 16px;
+    background: #f3e3d6;
+    color: black;
+    border-radius:4px;
+    width: 60%;
+    float: left;
+}
+.right{
+    padding: 10px 16px;
+    background: #f3e3d6;
+    color: black;
+    border-radius:4px;
+    width: 20%;
+    float: right;
+}

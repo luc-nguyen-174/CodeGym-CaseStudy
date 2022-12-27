@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Case-Module1.iml" filepath="$PROJECT_DIR$/.idea/Case-Module1.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/demo-dingtea/.idea/demo-dingtea.iml" filepath="$USER_HOME$/Downloads/demo-dingtea/.idea/demo-dingtea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../clone/product/C0622I1-Product-Manager/.idea/product.iml" filepath="$PROJECT_DIR$/../../clone/product/C0622I1-Product-Manager/.idea/product.iml" />
+    </modules>
+  </component>
+</project>
