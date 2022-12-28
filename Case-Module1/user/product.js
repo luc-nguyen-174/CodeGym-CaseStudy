@@ -1,24 +1,15 @@
 class GongChaProd {
-    category
+
     name
     price
     size
     img
 
-    constructor(category, name, size, price, img) {
-        this.category = category;
+    constructor(name, size, price, img) {
         this.name = name;
         this.size = size
         this.price = price;
         this.img = img;
-    }
-
-    get category() {
-        return this.category;
-    }
-
-    set category(value) {
-        this.category = value;
     }
 
     get name() {

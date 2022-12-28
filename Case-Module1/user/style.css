@@ -50,4 +50,9 @@ div.sticky{
     background: #f5eee9
 
 }
-
+.category{
+    background: #e4ded9;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 20px;
+}
