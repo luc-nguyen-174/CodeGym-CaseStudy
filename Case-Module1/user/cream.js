@@ -1,6 +1,6 @@
 let creamProd =[
-    new GongChaProd("Dolce Milk Tea Float","M",70.000,"https://gongcha.com.vn/wp-content/uploads/2022/07/Dolce-milk-tea-float.png"),
-    new GongChaProd("Okinawa Latte Float","M",75.000,"https://gongcha.com.vn/wp-content/uploads/2022/07/okinawa-latte-float.png")
+    new GongChaProd("Dolce Milk Tea Float","M",70000,"https://gongcha.com.vn/wp-content/uploads/2022/07/Dolce-milk-tea-float.png"),
+    new GongChaProd("Okinawa Latte Float","M",75000,"https://gongcha.com.vn/wp-content/uploads/2022/07/okinawa-latte-float.png")
 ]
 
 function showCreamProd(){
@@ -16,11 +16,12 @@ function showCreamProd(){
                                 <strong>${creamProd[i].name}</strong>
                             </div>
                             <div class="item-des">
-                            <p>Size: ${creamProd[i].size}</p><br>
+                            <span>Size: ${creamProd[i].size}</span><br>
                             </div>
                             <div class="item-price">
                                 <span>${creamProd[i].price}</span>
                             </div>
+                            <span id="addtocart-button"><button id="plus-button"><i class="fa-solid fa-plus"></i></button></span>
                     </div>
 
                 </div>`

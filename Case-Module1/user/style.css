@@ -4,7 +4,7 @@ body{
     font-size:16px;
 }
 #banner{
-    width: 100%;
+    max-width:100%;
     height: 100%;
     background-position: center center;
     background-size: cover;
@@ -43,4 +43,10 @@ div.sticky{
     border-radius:4px;
     width: 20%;
     float: right;
+}
+
+#plus-button{
+    border-radius:100px;
+    background: #f5eee9
+
 }
