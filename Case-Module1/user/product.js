@@ -1,14 +1,14 @@
-class Product{
+class GongChaProd{
     name
     price
-    des
     size
+    img
 
-    constructor(name, price, des, size) {
+    constructor(name, size, price,img) {
         this.name = name;
+        this.size=size
         this.price = price;
-        this.des = des;
-        this.size = size;
+        this.img = img;
     }
 
     get name() {
@@ -27,19 +27,19 @@ class Product{
         this.price = value;
     }
 
-    get des() {
-        return this.des;
-    }
-
-    set des(value) {
-        this.des = value;
-    }
-
     get size() {
         return this.size;
     }
 
     set size(value) {
         this.size = value;
+    }
+
+    get img() {
+        return this.img;
+    }
+
+    set img(value) {
+        this.img = value;
     }
 }

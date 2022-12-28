@@ -12,6 +12,12 @@ body{
     color: #FFF;
     position: relative;
 }
+
+div.sticky{
+    position: fixed;
+    width: 100%;
+}
+
 .list-item{
     width: 30%;
     float: left;
