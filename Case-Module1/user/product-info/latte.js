@@ -30,9 +30,9 @@ function showLatteProd() {
     let content="";
     for (let i=0; i<latteProduct.length; i++)
     {
-        content +=`<div>
+        content +=`<div class="product-box">
                         <div class="item-img">
-                            <img width="80" height="80" src=${latteProduct[i].img} alt="item-img">
+                            <img width="250" height="250" src=${latteProduct[i].img} alt="item-img">
                         </div>
 
                         <div class="item-des">

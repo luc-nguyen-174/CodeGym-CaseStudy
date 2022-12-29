@@ -6,9 +6,9 @@ let creamProd =[
 function showCreamProd(){
     let content="";
     for(let i=0;i<creamProd.length;i++){
-        content +=`<div>
+        content +=`<div class="product-box">
                         <div class="item-img">
-                            <img width="80" height="80" src=${creamProd[i].img} alt="item-img">
+                            <img src=${creamProd[i].img} width="250" height="250"  alt="item-img">
                         </div>
 
                         <div class="item-des">
@@ -21,7 +21,7 @@ function showCreamProd(){
                             <div class="item-price">
                                 <span>${creamProd[i].price}</span>
                             </div>
-                            <span id="addtocart-button"><button id="plus-button"><i class="fa-solid fa-plus"></i></button></span>
+                            <span id="addtocart-button"><button id="plus-button" onclick="addToCart(this)"><i class="fa-solid fa-plus"></i></button></span>
                         </div>
 
                     </div>`

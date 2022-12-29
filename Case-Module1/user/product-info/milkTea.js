@@ -35,7 +35,7 @@ function showMilkTeaPro() {
     for (let i = 0; i < milkTeaProd.length; i++) {
         content += `<div>
                         <div class="item-img">
-                            <img width="80" height="80" src=${milkTeaProd[i].img} alt="item-img">
+                            <img width="250" height="250" src=${milkTeaProd[i].img} alt="item-img">
                         </div>
 
                         <div class="item-des">

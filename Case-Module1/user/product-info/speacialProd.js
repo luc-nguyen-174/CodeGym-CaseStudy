@@ -19,7 +19,7 @@ function showSpecialProd() {
     for (let i = 0; i < specialProd.length; i++) {
         content += `<div>
                         <div class="item-img">
-                            <img width="80" height="80" src=${specialProd[i].img} alt="item-img">
+                            <img width="250" height="250" src=${specialProd[i].img} alt="item-img">
                         </div>
 
                         <div class="item-des">

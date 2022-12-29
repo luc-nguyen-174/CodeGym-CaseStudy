@@ -11,6 +11,7 @@
     <orderEntry type="module" module-name="demo-dingtea" />
     <orderEntry type="module" module-name="product" />
     <orderEntry type="library" name="efeb346dcb" level="application" />
+    <orderEntry type="module" module-name="democart_htmlcss" />
     <orderEntry type="module" module-name="index" />
   </component>
 </module>
