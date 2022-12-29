@@ -16,12 +16,12 @@ function showCreamProd(){
                                 <strong>${creamProd[i].name}</strong>
                             </div>
                             <div class="item-des">
-                            <span>Size: ${creamProd[i].size}</span><br>
+                            <span id="size-dislay">Size: ${creamProd[i].size}</span><br>
                             </div>
                             <div class="item-price">
-                                <span>${creamProd[i].price}</span>
+                                <span id="price-dislay">${creamProd[i].price}<sup>đ</sup></span>
                             </div>
-                            <span id="addtocart-button"><button id="plus-button" onclick="addToCart(this)"><i class="fa-solid fa-plus"></i></button></span>
+                            <span id="addtocart-button"><button id="plus-button"><i class="fa-solid fa-plus"></i></button></span>
                         </div>
 
                     </div>`

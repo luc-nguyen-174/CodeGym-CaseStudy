@@ -21,15 +21,18 @@ div.sticky{
 }
 
 .list-item{
-    max-width: 15%;
-    float: left;
-    background-color: #e1cec0;
+    max-width: 235px;
     border-radius: 3px;
+    float: left;
+    background-color: #f5eee9;
+    text-align: center;
 }
 .main-mid{
     width: 64.985%;
     float: right;
-    padding: 0 10px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background: #f3e3d6;
 }
 
 .shop-content{
@@ -44,11 +47,12 @@ div.sticky{
 }
 .left {
     padding: 10px 16px;
-    background: #f3e3d6;
+    background: #f5eee9;
     color: black;
     border-radius:4px;
     width: 60%;
     float: left;
+    margin-inside: 2px;
 }
 .right{
     position: fixed;
@@ -58,6 +62,7 @@ div.sticky{
     border-radius:4px;
     width: 20%;
     right:1%;
+    font-size: 14px;
 }
 
 #plus-button{
@@ -71,4 +76,19 @@ div.sticky{
     padding: 10px 16px;
     font-size: 20px;
     position: page;
+    border-radius: 30px;
+}
+.category-location{
+    display: block;
+    background: #e4ded9;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 14px;
+    position: page;
+    border-radius: 30px;
+    margin-bottom: 9px;
+    text-transform: uppercase;
+    color: #584c4c;
+    border:1px;
+    width:235px;
 }

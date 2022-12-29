@@ -35,10 +35,10 @@ function showOriginalProd() {
                             <strong>${originalProd[i].name}</strong>
                             </div>
                         <div class="item-des">
-                            <span>Size: ${originalProd[i].size}</span><br>
+                            <span id="size-dislay">Size: ${originalProd[i].size}</span><br>
                         </div>
                         <div class="item-price">
-                            <span>${originalProd[i].price}</span>
+                            <span id="price-dislay">${originalProd[i].price}</span>
                         </div>
                             <span id="addtocart-button"><button id="plus-button"><i class="fa-solid fa-plus"></i></button></span>
                         </div>

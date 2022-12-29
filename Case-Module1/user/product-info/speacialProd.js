@@ -27,10 +27,10 @@ function showSpecialProd() {
                             <strong>${specialProd[i].name}</strong>
                             </div>
                         <div class="item-des">
-                            <span>Size: ${specialProd[i].size}</span><br>
+                            <span id="size-dislay">Size: ${specialProd[i].size}</span><br>
                         </div>
                         <div class="item-price">
-                            <span>${specialProd[i].price}</span>
+                            <span id="price-dislay">${specialProd[i].price}</span>
                         </div>
                             <span id="addtocart-button"><button id="plus-button"><i class="fa-solid fa-plus"></i></button></span>
                         </div>

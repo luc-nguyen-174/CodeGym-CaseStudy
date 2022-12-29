@@ -20,12 +20,12 @@
 
 
         <div class="list-item sticky" id="scrool-fix">
-            <li><a href="#block-1">Cream</a></li>
-            <li><a href="#block-2">Latte</a></li>
-            <li><a href="#block-3">Milk Tea</a></li>
-            <li><a href="#block-4">Original</a></li>
-            <li><a href="#block-5">Special</a></li>
-            <li><a href="#block-6">Topping</a></li>
+            <button class="category-location" onclick="goToBlock1()">Cream</button>
+            <button class="category-location" onclick="goToBlock2()">Latte</button>
+            <button class="category-location" onclick="goToBlock3()">Milk Tea</button>
+            <button class="category-location" onclick="goToBlock4()">Original</button>
+            <button class="category-location" onclick="goToBlock5()">Special</button>
+            <button class="category-location" onclick="goToBlock6()">Topping</button>
         </div>
 
 
@@ -68,18 +68,22 @@
 
 
     <div class="right">
-        <span>Tổng:</span>
+        <span class="product-name">Trà sữa</span><br>
+        <span class="quantity" >Số lượng:</span><br>
+        <span class="count">Tổng:</span><br>
+        <button class="payment-button">Thanh Toán</button>
     </div>
 
 
 </div>
 </body>
 <script src="product.js"></script>
-<script src="addtocart.js"></script>
+<script src="go-to-block.js"></script>
 <script src="product-info/cream.js"></script>
 <script src="product-info/latte.js"></script>
 <script src="product-info/milkTea.js"></script>
 <script src="product-info/speacialProd.js"></script>
 <script src="product-info/original.js"></script>
 <script src="product-info/topping.js"></script>
+<script src="addtocart.js"></script>
 </html>

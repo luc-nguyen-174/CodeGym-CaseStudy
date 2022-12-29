@@ -30,10 +30,10 @@ function showToppingProd() {
                             <strong>${toppingProduct[i].name}</strong>
                             </div>
                         <div class="item-des">
-                            <span>Size: ${toppingProduct[i].size}</span><br>
+                            <span id="size-dislay">${toppingProduct[i].size}</span><br>
                         </div>
                         <div class="item-price">
-                            <span>${toppingProduct[i].price}</span>
+                            <span id="price-dislay">${toppingProduct[i].price}</span>
                         </div>
                             <span id="addtocart-button"><button id="plus-button"><i class="fa-solid fa-plus"></i></button></span>
                         </div>

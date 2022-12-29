@@ -40,10 +40,10 @@ function showLatteProd() {
                                 <strong>${latteProduct[i].name}</strong>
                             </div>
                             <div class="item-des">
-                            <span>Size: ${latteProduct[i].size}</span><br>
+                            <span id="size-dislay">Size: ${latteProduct[i].size}</span><br>
                             </div>
                             <div class="item-price">
-                                <span>${latteProduct[i].price}</span>
+                                <span id="price-dislay">${latteProduct[i].price}<sup>đ</sup></span>
                             </div>
                             <span id="addtocart-button"><button id="plus-button"><i class="fa-solid fa-plus"></i></button></span>
                     </div>
