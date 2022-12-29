@@ -15,6 +15,9 @@ header{
     color: #FFF;
     position: relative;
 }
+.main-menu{
+    display: flex;
+}
 div.sticky{
     position: fixed;
     width: 100%;
@@ -55,11 +58,11 @@ div.sticky{
     margin-inside: 2px;
 }
 .right{
-    position: absolute;
+    margin-top:11px ;
     padding: 10px 16px;
-    background: #f3e3d6;
-    color: black;
-    border-radius:4px;
+    background: #f5eee9;
+    color: #584c4c;
+    border-radius:15px;
     max-width: 20%;
     left:78%;
     font-size: 14px;
@@ -79,7 +82,6 @@ div.sticky{
     border-radius: 30px;
 }
 .category-location{
-    display: block;
     background: #e4ded9;
     text-align: center;
     padding: 10px 16px;
@@ -90,7 +92,7 @@ div.sticky{
     text-transform: uppercase;
     color: #584c4c;
     border:1px;
-    width: 100%;
+    width:15%;
 }
 .payment-button{
     margin-top:10px;

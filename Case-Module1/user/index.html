@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Case Study Demo Gong Cha</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scroll-fix.css">
     <link rel="short cut icon" href="../img/header/logo.png">
     <script src="https://kit.fontawesome.com/efeb346dcb.js" crossorigin="anonymous"></script>
 </head>
@@ -12,21 +13,31 @@
     <img id=banner src="../img/header/logo-1.jpg" alt="logo-banner">
 </header>
 
+<div class="header" id="myHeader">
+    <span>
+        <button class="category-location" onclick="goToBlock1()">Cream</button>
+        <button class="category-location" onclick="goToBlock2()">Latte</button>
+        <button class="category-location" onclick="goToBlock3()">Milk Tea</button>
+        <button class="category-location" onclick="goToBlock4()">Original</button>
+        <button class="category-location" onclick="goToBlock5()">Special</button>
+        <button class="category-location" onclick="goToBlock6()">Topping</button>
+    </span>
+</div>
 
-<div id="main-menu">
+<div class="main-menu">
 
 
     <div class="left">
 
 
-        <div class="list-item sticky" id="scrool-fix">
-            <button class="category-location" onclick="goToBlock1()">Cream</button>
-            <button class="category-location" onclick="goToBlock2()">Latte</button>
-            <button class="category-location" onclick="goToBlock3()">Milk Tea</button>
-            <button class="category-location" onclick="goToBlock4()">Original</button>
-            <button class="category-location" onclick="goToBlock5()">Special</button>
-            <button class="category-location" onclick="goToBlock6()">Topping</button>
-        </div>
+<!--        <div class="list-item header" id="scrool-fix myHeader">-->
+<!--            <button class="category-location" onclick="goToBlock1()">Cream</button>-->
+<!--            <button class="category-location" onclick="goToBlock2()">Latte</button>-->
+<!--            <button class="category-location" onclick="goToBlock3()">Milk Tea</button>-->
+<!--            <button class="category-location" onclick="goToBlock4()">Original</button>-->
+<!--            <button class="category-location" onclick="goToBlock5()">Special</button>-->
+<!--            <button class="category-location" onclick="goToBlock6()">Topping</button>-->
+<!--        </div>-->
 
 
         <div class="main-mid">
@@ -76,6 +87,7 @@
 
 </div>
 </body>
+<script src="js/scrool-fix.js"></script>
 <script src="product.js"></script>
 <script src="js/go-to-block.js"></script>
 <script src="product-info/cream.js"></script>
