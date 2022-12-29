@@ -21,7 +21,7 @@ div.sticky{
 }
 
 .list-item{
-    max-width: 235px;
+    max-width: 15%;
     border-radius: 3px;
     float: left;
     background-color: #f5eee9;
@@ -37,7 +37,7 @@ div.sticky{
 
 .shop-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    grid-template-columns: repeat(auto-fill,minmax(250px,auto));
     gap:1.5rem;
     text-align: center;
 }
@@ -50,18 +50,18 @@ div.sticky{
     background: #f5eee9;
     color: black;
     border-radius:4px;
-    width: 60%;
+    width: 75%;
     float: left;
     margin-inside: 2px;
 }
 .right{
-    position: fixed;
+    position: absolute;
     padding: 10px 16px;
     background: #f3e3d6;
     color: black;
     border-radius:4px;
-    width: 20%;
-    right:1%;
+    max-width: 20%;
+    left:78%;
     font-size: 14px;
 }
 
@@ -90,5 +90,14 @@ div.sticky{
     text-transform: uppercase;
     color: #584c4c;
     border:1px;
-    width:235px;
+    width: 100%;
+}
+.payment-button{
+    margin-top:10px;
+    text-align: center;
+    padding: 10px 16px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #584c4c;
+
 }
