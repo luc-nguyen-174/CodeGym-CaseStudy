@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4041d374-83df-4933-9edf-28e5f8afb406" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Doc3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module1/Git/bai4/demo1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module1/Git/bai4/demo1/.idea/demo1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module1/Git/bai4/demo1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module1/Git/bai4/demo1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../TKB-Module 1 .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TKB-Module 1 .xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../WebStorm/html/html_va_thuoctinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebStorm/html/html_va_thuoctinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../WebStorm/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebStorm/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../WebStorm/html/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebStorm/html/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../WebStorm/product-management/index/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebStorm/product-management/index/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../WebStorm/product-management/index/productManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebStorm/product-management/index/productManagement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../baitap/baitap-codegym" beforeDir="false" afterPath="$PROJECT_DIR$/../../../baitap/baitap-codegym" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../demo-git-html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../demo2/demo2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../tài liệu/git.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../xep_hang_hoc_sinh.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +75,8 @@
       <workItem from="1672189508977" duration="40506000" />
       <workItem from="1672284957284" duration="30699000" />
       <workItem from="1672369853117" duration="2000" />
-      <workItem from="1672369902974" duration="775000" />
+      <workItem from="1672369902974" duration="2491000" />
+      <workItem from="1672372688787" duration="16000" />
     </task>
     <servers />
   </component>
