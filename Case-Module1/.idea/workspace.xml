@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4041d374-83df-4933-9edf-28e5f8afb406" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Doc3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module1/Git/bai4/demo1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module1/Git/bai4/demo1/.idea/demo1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module1/Git/bai4/demo1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module1/Git/bai4/demo1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TKB-Module 1 .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TKB-Module 1 .xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebStorm/html/html_va_thuoctinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebStorm/html/html_va_thuoctinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebStorm/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebStorm/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebStorm/html/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebStorm/html/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebStorm/product-management/index/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebStorm/product-management/index/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebStorm/product-management/index/productManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebStorm/product-management/index/productManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../baitap/baitap-codegym" beforeDir="false" afterPath="$PROJECT_DIR$/../../../baitap/baitap-codegym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo-git-html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo2/demo2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tài liệu/git.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../xep_hang_hoc_sinh.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JTYuhrqRegnxTg2ysW2nk0eEoX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Codegym/Case Study/CodeGym-CaseStudy/Case-Module1&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user" />
+      <recent name="$PROJECT_DIR$/user/css" />
+      <recent name="$PROJECT_DIR$/user/js" />
+      <recent name="$PROJECT_DIR$/user/product-info" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4041d374-83df-4933-9edf-28e5f8afb406" name="Changes" comment="" />
+      <created>1672103764150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672103764150</updated>
+      <workItem from="1672103765222" duration="271000" />
+      <workItem from="1672104062191" duration="1611000" />
+      <workItem from="1672121252543" duration="20437000" />
+      <workItem from="1672156476499" duration="362000" />
+      <workItem from="1672189337513" duration="24000" />
+      <workItem from="1672189508977" duration="40506000" />
+      <workItem from="1672284957284" duration="30699000" />
+      <workItem from="1672369853117" duration="2000" />
+      <workItem from="1672369902974" duration="775000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
