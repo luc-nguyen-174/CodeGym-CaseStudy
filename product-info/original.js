@@ -38,7 +38,7 @@ function showOriginalProd() {
                             <span id="size-dislay">Size: ${originalProd[i].size}</span><br>
                         </div>
                         <div class="item-price">
-                            <span id="price-dislay">${originalProd[i].price}</span>
+                            <span id="price-dislay">${originalProd[i].price}</span><sup>đ</sup>
                         </div>
                             <span id="addtocart-button"><button id="plus-button"><i class="fa-solid fa-plus"></i></button></span>
                         </div>

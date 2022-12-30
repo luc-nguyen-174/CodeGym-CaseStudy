@@ -20,7 +20,7 @@
 				<button class="category-location" onclick="goToBlock4()">Original</button>
 				<button class="category-location" onclick="goToBlock5()">Special</button>
 				<button class="category-location" onclick="goToBlock6()">Topping</button>
-                <button class="cart-button"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="cart-button" onclick="goToBlock7()"><i class="fa-solid fa-cart-shopping"></i></button>
 			</span>
 </div>
 <div class="main-menu">
@@ -67,7 +67,7 @@
     <div class="right">
         <div class="showCart"></div>
         <div class="count">
-            <span>Tổng:</span>
+            <span>Tổng:<span id="showTotal" ></span><sup>đ</sup></span>
         </div>
         <div class="payment-button">
             <button class="payment-button" onclick="payment()">Thanh Toán</button>
@@ -76,7 +76,7 @@
 </div>
 </body>
 <script src="js/scrool-fix.js"></script>
-<script src="product.js"></script>
+<script src="js/product.js"></script>
 <script src="js/payment.js"></script>
 <script src="js/go-to-block.js"></script>
 <script src="product-info/cream.js"></script>

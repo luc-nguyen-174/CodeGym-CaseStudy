@@ -46,7 +46,7 @@ function showMilkTeaPro() {
                             <span id="size-dislay">Size: ${milkTeaProd[i].size}</span><br>
                         </div>
                         <div class="item-price">
-                            <span id="price-dislay">${milkTeaProd[i].price}</span>
+                            <span id="price-dislay">${milkTeaProd[i].price}</span><sup>đ</sup>
                         </div>
                             <span id="addtocart-button"><button id="plus-button"><i class="fa-solid fa-plus"></i></button></span>
                         </div>

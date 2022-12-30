@@ -33,7 +33,7 @@ function showToppingProd() {
                             <span id="size-dislay">${toppingProduct[i].size}</span><br>
                         </div>
                         <div class="item-price">
-                            <span id="price-dislay">${toppingProduct[i].price}</span>
+                            <span id="price-dislay">${toppingProduct[i].price}</span><sup>đ</sup>
                         </div>
                             <span id="addtocart-button"><button id="plus-button"><i class="fa-solid fa-plus"></i></button></span>
                         </div>
