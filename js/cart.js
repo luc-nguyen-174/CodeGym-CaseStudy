@@ -17,7 +17,9 @@ function addcart(productName, productSize, productPrice) {
                         <div class="count txt-margin"><span>Giá: </span><span id="price">${productPrice}</span><sup>đ</sup></div>
                         <div class="txt-margin">
                             <span class="quantity">Số lượng: <input class="quantity-box" type="number" value="1">
-                            <button class="delete-button" ><i class="fa-solid fa-xmark"></i></button>
+                            <button class="incart-button" onclick="cancelProduct()"><i class="fa-solid fa-xmark"></i></button>
+                            <button class="incart-button" style="border-radius: 15px"><i class="fa-solid fa-plus" onclick="plusProduct()"></i></button>
+                            <button class="incart-button" style="border-radius: 15px" onclick="minusProduct()"><i class="fa-solid fa-minus"></i></button>
                             </span>
                         </div></div>
                         <hr>`
@@ -44,6 +46,17 @@ function cartTotal() {
         // console.log(cartTotal)
     }
     let showTotal=document.querySelector("#showTotal")
-    showTotal.innerHTML=cartTotal;
-    console.log(showTotal)
+    showTotal.innerHTML=cartTotal.toLocaleString("de-DE");
+    // console.log(showTotal)
 }
+
+function minusProduct(){
+    let quantity=document.getElementsByClassName("quantity-box")
+    console.log(quantity)
+    quantity.length--;
+    return quantity;
+}
+
+function plusProduct(){}
+
+function cancelProduct(){}
