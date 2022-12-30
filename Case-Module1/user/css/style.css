@@ -1,79 +1,81 @@
-body{
+body {
     background: #f5eee9;
     font-family: "Helvetica Neue", Helvetica, fantasy;
-    font-size:16px;
-}
-header{
-    position: page;
-}
-#banner{
-    max-width:100%;
-    height: 100%;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #FFF;
-    position: relative;
-}
-.main-menu{
-    display: flex;
-}
-div.sticky{
-    position: fixed;
-    width: 100%;
+    font-size: 16px;
 }
 
-.list-item{
-    max-width: 15%;
-    border-radius: 3px;
-    float: left;
-    background-color: #f5eee9;
-    text-align: center;
+header {
+    position: page;
 }
-.main-mid{
-    width: 64.985%;
+
+html {
+    scroll-behavior: smooth;
+}
+
+button.delete-button {
+    float: right;
+    border-color: #f5eee9;
+    border-radius: 3px;
+    color: #584c4c
+}
+
+#banner {
+    max-width: 100%;
+    height: 100%;
+    color: #FFF;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.main-mid {
+    width: 90%;
     float: right;
     padding: 10px 10px;
     border-radius: 15px;
     background: #f3e3d6;
 }
 
-.shop-content{
+.shop-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(250px,auto));
-    gap:1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+    gap: 1.5rem;
     text-align: center;
 }
 
-.product-box{
+.product-box {
     float: left;
 }
+
 .left {
     padding: 10px 16px;
     background: #f5eee9;
     color: black;
-    border-radius:4px;
+    border-radius: 4px;
     width: 75%;
     float: left;
     margin-inside: 2px;
 }
-.right{
-    margin-top:11px ;
+
+.right {
+    margin-top: 11px;
     padding: 10px 16px;
     background: #f5eee9;
     color: #584c4c;
-    border-radius:15px;
+    border-radius: 15px;
     max-width: 20%;
-    left:78%;
+    left: 78%;
     font-size: 14px;
 }
 
-#plus-button{
-    border-radius:7px;
+#plus-button {
+    border-radius: 7px;
     background: #f5eee9
 
 }
-.category{
+
+.category {
     background: #e4ded9;
     text-align: center;
     padding: 10px 16px;
@@ -81,7 +83,8 @@ div.sticky{
     position: page;
     border-radius: 30px;
 }
-.category-location{
+
+.category-location {
     background: #e4ded9;
     text-align: center;
     padding: 10px 16px;
@@ -91,15 +94,25 @@ div.sticky{
     margin-bottom: 9px;
     text-transform: uppercase;
     color: #584c4c;
-    border:1px;
-    width:15%;
+    border: 1px;
+    width: 15%;
 }
-.payment-button{
-    margin-top:10px;
+
+.payment-button {
+    margin-top: 10px;
     text-align: center;
     padding: 10px 16px;
     border-radius: 30px;
     text-transform: uppercase;
     color: #584c4c;
+}
 
+.txt-margin{
+    margin-top:6px;
+}
+
+.quantity-box {
+    width: 30px;
+    border: none;
+    background: #f5eee9;
 }

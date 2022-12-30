@@ -8,7 +8,7 @@ function showCreamProd(){
     for(let i=0;i<creamProd.length;i++){
         content +=`<div class="product-box">
                         <div class="item-img">
-                            <img src=${creamProd[i].img} width="250" height="250"  alt="item-img">
+                            <img class="imgProd" src=${creamProd[i].img} width="250" height="250"  alt="item-img">
                         </div>
 
                         <div class="item-des">
@@ -19,7 +19,7 @@ function showCreamProd(){
                             <span id="size-dislay">Size: ${creamProd[i].size}</span><br>
                             </div>
                             <div class="item-price">
-                                <span id="price-dislay">${creamProd[i].price}<sup>đ</sup></span>
+                                <span id="price-dislay">${creamProd[i].price}</span><sup>đ</sup>
                             </div>
                             <span id="addtocart-button"><button id="plus-button"><i class="fa-solid fa-plus"></i></button></span>
                         </div>

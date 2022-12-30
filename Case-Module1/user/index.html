@@ -12,69 +12,72 @@
 <header>
     <img id=banner src="../img/header/logo-1.jpg" alt="logo-banner">
 </header>
-
 <div class="header" id="myHeader">
-    <span>
-        <button class="category-location" onclick="goToBlock1()">Cream</button>
-        <button class="category-location" onclick="goToBlock2()">Latte</button>
-        <button class="category-location" onclick="goToBlock3()">Milk Tea</button>
-        <button class="category-location" onclick="goToBlock4()">Original</button>
-        <button class="category-location" onclick="goToBlock5()">Special</button>
-        <button class="category-location" onclick="goToBlock6()">Topping</button>
-    </span>
+			<span>
+				<button class="category-location" onclick="goToBlock1()">Cream</button>
+				<button class="category-location" onclick="goToBlock2()">Latte</button>
+				<button class="category-location" onclick="goToBlock3()">Milk Tea</button>
+				<button class="category-location" onclick="goToBlock4()">Original</button>
+				<button class="category-location" onclick="goToBlock5()">Special</button>
+				<button class="category-location" onclick="goToBlock6()">Topping</button>
+                <button>Cart</button>
+			</span>
 </div>
-
 <div class="main-menu">
-
-
     <div class="left">
         <div class="main-mid">
-
             <section id="block-1">
-                <div class="category"><strong>Cream</strong></div>
-                <p id="cream"  class="shop-content"></p>
+                <div class="category">
+                    <strong>Cream</strong>
+                </div>
+                <p id="cream" class="shop-content"></p>
             </section>
-
             <section id="block-2">
-                <div class="category"><strong>Latte</strong></div>
+                <div class="category">
+                    <strong>Latte</strong>
+                </div>
                 <p id="latte" class="shop-content"></p>
             </section>
-
             <section id="block-3">
-                <div class="category"><strong>Milk Tea</strong></div>
+                <div class="category">
+                    <strong>Milk Tea</strong>
+                </div>
                 <p id="milkTea" class="shop-content"></p>
             </section>
-
             <section id="block-4">
-                <div class="category"><strong>Original</strong></div>
+                <div class="category">
+                    <strong>Original</strong>
+                </div>
                 <p id="original" class="shop-content"></p>
             </section>
-
             <section id="block-5">
-                <div class="category"><strong>Special</strong></div>
+                <div class="category">
+                    <strong>Special</strong>
+                </div>
                 <p id="specialDrink" class="shop-content"></p>
             </section>
-
             <section id="block-6">
-                <div class="category"><strong>Topping</strong></div>
+                <div class="category">
+                    <strong>Topping</strong>
+                </div>
                 <p id="topping" class="shop-content"></p>
             </section>
-
         </div>
     </div>
-
-
     <div class="right">
         <div class="showCart"></div>
-        <div class="count"><span>Tổng:</span></div>
-        <div class="payment-button"><button class="payment-button">Thanh Toán</button></div>
+        <div class="count">
+            <span>Tổng:</span>
+        </div>
+        <div class="payment-button">
+            <button class="payment-button" onclick="payment()">Thanh Toán</button>
+        </div>
     </div>
-
-
 </div>
 </body>
 <script src="js/scrool-fix.js"></script>
 <script src="product.js"></script>
+<script src="js/payment.js"></script>
 <script src="js/go-to-block.js"></script>
 <script src="product-info/cream.js"></script>
 <script src="product-info/latte.js"></script>
@@ -82,5 +85,5 @@
 <script src="product-info/speacialProd.js"></script>
 <script src="product-info/original.js"></script>
 <script src="product-info/topping.js"></script>
-<script src="js/addtocart.js"></script>
+<script src="js/cart.js"></script>
 </html>
